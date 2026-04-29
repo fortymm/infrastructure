@@ -22,7 +22,7 @@ services:
     restart: unless-stopped
 
   api:
-    image: ghcr.io/fortymm/api:sha-4913c86
+    image: ghcr.io/fortymm/api:sha-8f75b97
     container_name: fortymm-api
     platform: linux/amd64
     restart: unless-stopped
