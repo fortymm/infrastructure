@@ -17,7 +17,7 @@ services:
       - ./nginx/snippets:/etc/nginx/conf.d/snippets:ro
 
   web:
-    image: ghcr.io/fortymm/web-client:sha-89735ed
+    image: ghcr.io/fortymm/web-client:sha-84a46f4
     container_name: fortymm-web
     restart: unless-stopped
 
